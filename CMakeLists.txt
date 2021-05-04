@@ -29,7 +29,7 @@ generate_project_suffix()
 
 
  list(APPEND CMAKE_MODULE_PATH  ${PROJECT_SOURCE_DIR}/cmake  ${PROJECT_SOURCE_DIR}/cmake/common)
- list(APPEND CMAKE_PREFIX_PATH  )
+ list(APPEND CMAKE_PREFIX_PATH /Users/abaird/Development/BioGears/deps/qt5-build/qtbase /Users/abaird/Development/BioGears/ui/build-biogears)
  list(APPEND CMAKE_LIBRARY_PATH )
  list(APPEND CMAKE_INCLUDE_PATH )
  list(APPEND CMAKE_FIND_ROOT_PATH   ${PROJECT_SOURCE_DIR}/cmake/common)
